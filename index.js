@@ -417,7 +417,7 @@ await alpha.updatePresence(from, Presence.composing)
 		const isBanned = banned.includes(sender)
 		if (isCmd && isBanned) return reply2(lang.benned())
 		const isVote = isGroup ? voting.includes(from) : false
-		const ratee = ["Mr.Funixxxx","Mr.Funixxxx","Mr.Funixxxx","Mr.Funixxxx","Mr.Funixxxx","Mr.Funixxxx","Mr.Funixxxx"]
+		const ratee = ["Alphabot","Alphabot","Alphabot","Alphabot","Alphabot","Alphabot","Alphabot"]
         const tee = ratee[Math.floor(Math.random() * ratee.length)]
         const rateee = ["Dj storongest jedag jedug 30 s","Dj akimilaku remix terbaru 2021 30 s","Dj campuran 30 detik","Dj sidro 2  style Thailand viral 30 s","Dj disitu enak susu akimilaku 30 s","Dj zombie x melody stres love 30 s","Dj numa muma ye style Thailand 30 s","Dj biasalah x bola boma ye 30 s"]
         const srchh = rateee[Math.floor(Math.random() * rateee.length)]
